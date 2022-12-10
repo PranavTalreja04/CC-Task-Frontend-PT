@@ -5,6 +5,22 @@
 }
 nav {
   z-index: 101;
+} .nav-short {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  background-color: #212832 !important;
+}
+.nav-short-div {
+  width: 80%;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.nav-short-right {
+  margin-left: auto;
 }
 .nav-full .nav-div {
   display: flex;
